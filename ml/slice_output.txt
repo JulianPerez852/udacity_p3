@@ -1,0 +1,490 @@
+
+Category:  workclass,  State-gov
+ -Precision: 0.9607250755287009
+ -Recall: 0.9244186046511628
+ -Fbeta: 0.9422222222222222
+
+Category:  workclass,  Self-emp-not-inc
+ -Precision: 0.9622926093514329
+ -Recall: 0.8935574229691877
+ -Fbeta: 0.9266521423384169
+
+Category:  workclass,  Private
+ -Precision: 0.9626068376068376
+ -Recall: 0.9239130434782609
+ -Fbeta: 0.9428631226454584
+
+Category:  workclass,  Federal-gov
+ -Precision: 0.94579945799458
+ -Recall: 0.9561643835616438
+ -Fbeta: 0.9509536784741145
+
+Category:  workclass,  Local-gov
+ -Precision: 0.9493243243243243
+ -Recall: 0.922824302134647
+ -Fbeta: 0.9358867610324729
+
+Category:  workclass,  Self-emp-inc
+ -Precision: 0.9681208053691275
+ -Recall: 0.9616666666666667
+ -Fbeta: 0.9648829431438127
+
+Category:  workclass,  Without-pay
+ -Precision: 1.0
+ -Recall: 1.0
+ -Fbeta: 1.0
+
+Category:  education,  Bachelors
+ -Precision: 0.9536950420954162
+ -Recall: 0.9590780809031044
+ -Fbeta: 0.9563789868667917
+
+Category:  education,  HS-grad
+ -Precision: 0.9632402995234853
+ -Recall: 0.8750773036487323
+ -Fbeta: 0.9170447180816592
+
+Category:  education,  11th
+ -Precision: 1.0
+ -Recall: 0.8305084745762712
+ -Fbeta: 0.9074074074074074
+
+Category:  education,  Masters
+ -Precision: 0.9777777777777777
+ -Recall: 0.9586056644880174
+ -Fbeta: 0.968096809680968
+
+Category:  education,  9th
+ -Precision: 1.0
+ -Recall: 0.84
+ -Fbeta: 0.9130434782608696
+
+Category:  education,  Some-college
+ -Precision: 0.9481132075471698
+ -Recall: 0.9026946107784432
+ -Fbeta: 0.9248466257668712
+
+Category:  education,  Assoc-acdm
+ -Precision: 0.9333333333333333
+ -Recall: 0.9296875
+ -Fbeta: 0.9315068493150684
+
+Category:  education,  7th-8th
+ -Precision: 0.967741935483871
+ -Recall: 0.8571428571428571
+ -Fbeta: 0.909090909090909
+
+Category:  education,  Doctorate
+ -Precision: 0.968421052631579
+ -Recall: 0.9857142857142858
+ -Fbeta: 0.976991150442478
+
+Category:  education,  Assoc-voc
+ -Precision: 0.9684542586750788
+ -Recall: 0.8924418604651163
+ -Fbeta: 0.9288956127080182
+
+Category:  education,  Prof-school
+ -Precision: 0.9851851851851852
+ -Recall: 0.9827586206896551
+ -Fbeta: 0.9839704069050556
+
+Category:  education,  5th-6th
+ -Precision: 1.0
+ -Recall: 0.9166666666666666
+ -Fbeta: 0.9565217391304348
+
+Category:  education,  10th
+ -Precision: 1.0
+ -Recall: 0.8135593220338984
+ -Fbeta: 0.897196261682243
+
+Category:  education,  Preschool
+ -Precision: 1.0
+ -Recall: 1.0
+ -Fbeta: 1.0
+
+Category:  education,  12th
+ -Precision: 1.0
+ -Recall: 0.8620689655172413
+ -Fbeta: 0.9259259259259259
+
+Category:  education,  1st-4th
+ -Precision: 1.0
+ -Recall: 0.8333333333333334
+ -Fbeta: 0.9090909090909091
+
+Category:  marital-status,  Never-married
+ -Precision: 0.9879227053140096
+ -Recall: 0.8702127659574468
+ -Fbeta: 0.9253393665158371
+
+Category:  marital-status,  Married-civ-spouse
+ -Precision: 0.9564245810055866
+ -Recall: 0.9363963119237381
+ -Fbeta: 0.9463044851547694
+
+Category:  marital-status,  Divorced
+ -Precision: 0.989821882951654
+ -Recall: 0.8606194690265486
+ -Fbeta: 0.9207100591715977
+
+Category:  marital-status,  Married-spouse-absent
+ -Precision: 1.0
+ -Recall: 0.8387096774193549
+ -Fbeta: 0.9122807017543859
+
+Category:  marital-status,  Separated
+ -Precision: 1.0
+ -Recall: 0.8787878787878788
+ -Fbeta: 0.9354838709677419
+
+Category:  marital-status,  Married-AF-spouse
+ -Precision: 1.0
+ -Recall: 0.9
+ -Fbeta: 0.9473684210526316
+
+Category:  marital-status,  Widowed
+ -Precision: 1.0
+ -Recall: 0.825
+ -Fbeta: 0.9041095890410958
+
+Category:  occupation,  Adm-clerical
+ -Precision: 0.9375
+ -Recall: 0.9036144578313253
+ -Fbeta: 0.920245398773006
+
+Category:  occupation,  Exec-managerial
+ -Precision: 0.967556253270539
+ -Recall: 0.9545689210118741
+ -Fbeta: 0.9610187110187111
+
+Category:  occupation,  Handlers-cleaners
+ -Precision: 1.0
+ -Recall: 0.9036144578313253
+ -Fbeta: 0.9493670886075949
+
+Category:  occupation,  Prof-specialty
+ -Precision: 0.9643255295429208
+ -Recall: 0.9552733296521259
+ -Fbeta: 0.9597780859916781
+
+Category:  occupation,  Other-service
+ -Precision: 1.0
+ -Recall: 0.8333333333333334
+ -Fbeta: 0.9090909090909091
+
+Category:  occupation,  Sales
+ -Precision: 0.9644779332615716
+ -Recall: 0.9237113402061856
+ -Fbeta: 0.9436545550289627
+
+Category:  occupation,  Transport-moving
+ -Precision: 0.9547038327526133
+ -Recall: 0.8589341692789969
+ -Fbeta: 0.9042904290429044
+
+Category:  occupation,  Farming-fishing
+ -Precision: 0.979381443298969
+ -Recall: 0.8260869565217391
+ -Fbeta: 0.8962264150943396
+
+Category:  occupation,  Machine-op-inspct
+ -Precision: 0.9775784753363229
+ -Recall: 0.889795918367347
+ -Fbeta: 0.9316239316239315
+
+Category:  occupation,  Tech-support
+ -Precision: 0.9636363636363636
+ -Recall: 0.9532374100719424
+ -Fbeta: 0.9584086799276672
+
+Category:  occupation,  Craft-repair
+ -Precision: 0.9352941176470588
+ -Recall: 0.8755506607929515
+ -Fbeta: 0.9044368600682594
+
+Category:  occupation,  Protective-serv
+ -Precision: 0.9595959595959596
+ -Recall: 0.9047619047619048
+ -Fbeta: 0.9313725490196078
+
+Category:  occupation,  Armed-Forces
+ -Precision: 1.0
+ -Recall: 1.0
+ -Fbeta: 1.0
+
+Category:  occupation,  Priv-house-serv
+ -Precision: 1.0
+ -Recall: 1.0
+ -Fbeta: 1.0
+
+Category:  relationship,  Not-in-family
+ -Precision: 0.9888888888888889
+ -Recall: 0.8651275820170109
+ -Fbeta: 0.9228775113415425
+
+Category:  relationship,  Husband
+ -Precision: 0.955591513843941
+ -Recall: 0.9359042084874097
+ -Fbeta: 0.9456454052130594
+
+Category:  relationship,  Wife
+ -Precision: 0.9631811487481591
+ -Recall: 0.9423631123919308
+ -Fbeta: 0.9526584122359797
+
+Category:  relationship,  Own-child
+ -Precision: 1.0
+ -Recall: 0.859375
+ -Fbeta: 0.9243697478991597
+
+Category:  relationship,  Unmarried
+ -Precision: 0.9945652173913043
+ -Recall: 0.8591549295774648
+ -Fbeta: 0.9219143576826195
+
+Category:  relationship,  Other-relative
+ -Precision: 0.967741935483871
+ -Recall: 0.8571428571428571
+ -Fbeta: 0.909090909090909
+
+Category:  race,  White
+ -Precision: 0.960623958806603
+ -Recall: 0.9274747770141833
+ -Fbeta: 0.9437583692902841
+
+Category:  race,  Black
+ -Precision: 0.9648093841642229
+ -Recall: 0.8989071038251366
+ -Fbeta: 0.9306930693069306
+
+Category:  race,  Asian-Pac-Islander
+ -Precision: 0.9623430962343096
+ -Recall: 0.9274193548387096
+ -Fbeta: 0.944558521560575
+
+Category:  race,  Amer-Indian-Eskimo
+ -Precision: 1.0
+ -Recall: 0.8235294117647058
+ -Fbeta: 0.9032258064516129
+
+Category:  race,  Other
+ -Precision: 0.95
+ -Recall: 0.9047619047619048
+ -Fbeta: 0.9268292682926829
+
+Category:  sex,  Male
+ -Precision: 0.9589461774688863
+ -Recall: 0.9276110068792995
+ -Fbeta: 0.9430183581022014
+
+Category:  sex,  Female
+ -Precision: 0.9731800766283525
+ -Recall: 0.9136690647482014
+ -Fbeta: 0.9424860853432283
+
+Category:  native-country,  United-States
+ -Precision: 0.9603739982190561
+ -Recall: 0.9250893495353825
+ -Fbeta: 0.9424015145998689
+
+Category:  native-country,  Cuba
+ -Precision: 1.0
+ -Recall: 0.92
+ -Fbeta: 0.9583333333333334
+
+Category:  native-country,  Jamaica
+ -Precision: 0.9
+ -Recall: 0.9
+ -Fbeta: 0.9
+
+Category:  native-country,  India
+ -Precision: 0.975609756097561
+ -Recall: 1.0
+ -Fbeta: 0.9876543209876543
+
+Category:  native-country,  Mexico
+ -Precision: 1.0
+ -Recall: 0.9090909090909091
+ -Fbeta: 0.9523809523809523
+
+Category:  native-country,  Puerto-Rico
+ -Precision: 0.9230769230769231
+ -Recall: 1.0
+ -Fbeta: 0.9600000000000001
+
+Category:  native-country,  Honduras
+ -Precision: 1.0
+ -Recall: 1.0
+ -Fbeta: 1.0
+
+Category:  native-country,  England
+ -Precision: 0.9642857142857143
+ -Recall: 0.9
+ -Fbeta: 0.9310344827586207
+
+Category:  native-country,  Canada
+ -Precision: 0.9705882352941176
+ -Recall: 0.9166666666666666
+ -Fbeta: 0.9428571428571428
+
+Category:  native-country,  Germany
+ -Precision: 0.9545454545454546
+ -Recall: 0.9545454545454546
+ -Fbeta: 0.9545454545454546
+
+Category:  native-country,  Iran
+ -Precision: 0.9411764705882353
+ -Recall: 0.8888888888888888
+ -Fbeta: 0.9142857142857143
+
+Category:  native-country,  Philippines
+ -Precision: 0.9655172413793104
+ -Recall: 0.9333333333333333
+ -Fbeta: 0.9491525423728815
+
+Category:  native-country,  Poland
+ -Precision: 1.0
+ -Recall: 1.0
+ -Fbeta: 1.0
+
+Category:  native-country,  Columbia
+ -Precision: 1.0
+ -Recall: 1.0
+ -Fbeta: 1.0
+
+Category:  native-country,  Cambodia
+ -Precision: 1.0
+ -Recall: 0.8571428571428571
+ -Fbeta: 0.923076923076923
+
+Category:  native-country,  Thailand
+ -Precision: 1.0
+ -Recall: 0.6666666666666666
+ -Fbeta: 0.8
+
+Category:  native-country,  Ecuador
+ -Precision: 1.0
+ -Recall: 1.0
+ -Fbeta: 1.0
+
+Category:  native-country,  Laos
+ -Precision: 1.0
+ -Recall: 0.5
+ -Fbeta: 0.6666666666666666
+
+Category:  native-country,  Taiwan
+ -Precision: 1.0
+ -Recall: 0.9473684210526315
+ -Fbeta: 0.972972972972973
+
+Category:  native-country,  Haiti
+ -Precision: 1.0
+ -Recall: 0.5
+ -Fbeta: 0.6666666666666666
+
+Category:  native-country,  Portugal
+ -Precision: 1.0
+ -Recall: 1.0
+ -Fbeta: 1.0
+
+Category:  native-country,  Dominican-Republic
+ -Precision: 1.0
+ -Recall: 1.0
+ -Fbeta: 1.0
+
+Category:  native-country,  El-Salvador
+ -Precision: 1.0
+ -Recall: 1.0
+ -Fbeta: 1.0
+
+Category:  native-country,  France
+ -Precision: 0.9090909090909091
+ -Recall: 0.8333333333333334
+ -Fbeta: 0.8695652173913043
+
+Category:  native-country,  Guatemala
+ -Precision: 1.0
+ -Recall: 1.0
+ -Fbeta: 1.0
+
+Category:  native-country,  Italy
+ -Precision: 0.96
+ -Recall: 1.0
+ -Fbeta: 0.9795918367346939
+
+Category:  native-country,  China
+ -Precision: 1.0
+ -Recall: 0.95
+ -Fbeta: 0.9743589743589743
+
+Category:  native-country,  South
+ -Precision: 1.0
+ -Recall: 0.9285714285714286
+ -Fbeta: 0.962962962962963
+
+Category:  native-country,  Japan
+ -Precision: 1.0
+ -Recall: 0.9130434782608695
+ -Fbeta: 0.9545454545454545
+
+Category:  native-country,  Yugoslavia
+ -Precision: 1.0
+ -Recall: 0.8333333333333334
+ -Fbeta: 0.9090909090909091
+
+Category:  native-country,  Peru
+ -Precision: 1.0
+ -Recall: 1.0
+ -Fbeta: 1.0
+
+Category:  native-country,  Outlying-US(Guam-USVI-etc)
+ -Precision: 1.0
+ -Recall: 1.0
+ -Fbeta: 1.0
+
+Category:  native-country,  Scotland
+ -Precision: 1.0
+ -Recall: 1.0
+ -Fbeta: 1.0
+
+Category:  native-country,  Trinadad&Tobago
+ -Precision: 1.0
+ -Recall: 1.0
+ -Fbeta: 1.0
+
+Category:  native-country,  Greece
+ -Precision: 1.0
+ -Recall: 0.875
+ -Fbeta: 0.9333333333333333
+
+Category:  native-country,  Nicaragua
+ -Precision: 1.0
+ -Recall: 1.0
+ -Fbeta: 1.0
+
+Category:  native-country,  Vietnam
+ -Precision: 0.7142857142857143
+ -Recall: 1.0
+ -Fbeta: 0.8333333333333333
+
+Category:  native-country,  Hong
+ -Precision: 0.8333333333333334
+ -Recall: 0.8333333333333334
+ -Fbeta: 0.8333333333333334
+
+Category:  native-country,  Ireland
+ -Precision: 1.0
+ -Recall: 1.0
+ -Fbeta: 1.0
+
+Category:  native-country,  Hungary
+ -Precision: 1.0
+ -Recall: 1.0
+ -Fbeta: 1.0
+
+Category:  native-country,  Holand-Netherlands
+ -Precision: 1.0
+ -Recall: 1.0
+ -Fbeta: 1.0
