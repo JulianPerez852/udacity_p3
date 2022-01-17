@@ -1,0 +1,4 @@
+outs:
+- md5: d42003a5a8ab75fe4d5d99969148af03
+  size: 1902
+  path: OneHotEncoderCop.sav

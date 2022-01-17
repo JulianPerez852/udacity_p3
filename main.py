@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 import pickle
 import pandas as pd
 from ml.data import process_data
@@ -17,16 +17,36 @@ class Item(BaseModel):
     workclass: str
     fnlgt:int
     education: str
-    education_num: int
-    marital_status: str
+    education_num: int = Field(alias="education-num")
+    marital_status: str = Field(alias="marital-status")
     occupation: str
     relationship: str
     race: str
     sex: str
-    capital_gain: int
-    capital_loss: int
-    hours_per_week: int
-    native_country: str
+    capital_gain: int = Field(alias="capital-gain")
+    capital_loss: int = Field(alias="capital-loss")
+    hours_per_week: int = Field(alias="hours-per-week")
+    native_country: str = Field(alias="native-country")
+
+    class Config:
+        schema_extra = {
+            "example": {
+                "age": 52,
+                "workclass": "Self-emp-inc",
+                "fnlgt": 287927,
+                "education": "HS-grad",
+                "education-num": 9,
+                "marital-status": "Married-civ-spouse",
+                "occupation": "Exec-managerial",
+                "relationship": "Wife",
+                "race": "White",
+                "sex": "Female",
+                "capital-gain": 15024,
+                "capital-loss": 0,
+                "hours-per-week": 40,
+                "native-country": "United-States"
+            }
+        }    
 
 
 def change_names(obj):
@@ -91,7 +111,9 @@ async def say_hello():
 @app.post("/predict/")
 async def create_item(item: Item):
 
+    #add the column unnamed
     obj=change_names(item)
+
     X=prepare_data(obj)
     pred=inference(loaded_model,X)
     tag=loaded_lb.inverse_transform(pred[0])
