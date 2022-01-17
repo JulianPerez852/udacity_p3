@@ -7,7 +7,7 @@ from ml.model import compute_model_metrics, inference
 
 
 def test_process_data():
-    df=pd.read_csv("data/census_clean.csv")
+    df=pd.read_csv("data/census_clean_copy.csv")
     cat_features = [
     " workclass",
     " education",
@@ -29,7 +29,7 @@ def test_compute_model_metrics():
     filename = 'ml/finalized_model.sav'
     model = pickle.load(open(filename, 'rb'))
 
-    data=pd.read_csv('data/census_clean.csv')
+    data=pd.read_csv('data/census_clean_copy.csv')
 
     cat_features = [
     " workclass",
@@ -60,7 +60,7 @@ def test_inference():
     filename = 'ml/finalized_model.sav'
     model = pickle.load(open(filename, 'rb'))
 
-    data=pd.read_csv('data/census_clean.csv')
+    data=pd.read_csv('data/census_clean_copy.csv')
 
     cat_features = [
     " workclass",
