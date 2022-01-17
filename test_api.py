@@ -3,13 +3,13 @@ import requests
 import json
 
 def test_get_method():
-    path = "http://127.0.0.1:8000/"
+    path = "https://udacityp3.herokuapp.com/"
     response = requests.get(url=path)
     responseJson = json.loads(response.text)
     assert response.status_code == 200
     
 def test_post_status_method():
-    path = "http://127.0.0.1:8000/predict"
+    path = "https://udacityp3.herokuapp.com/predict"
     json={
         "age": 39,
         "workclass": "State-gov",
@@ -31,7 +31,7 @@ def test_post_status_method():
     assert response.status_code == 200
 
 def test_predict_method():
-    path = "http://127.0.0.1:8000/predict"
+    path = "https://udacityp3.herokuapp.com/predict"
     json={
         "age": 39,
         "workclass": "State-gov",
@@ -53,7 +53,7 @@ def test_predict_method():
     assert response.text.replace('"',"") == "This person gain in one year  <=50K"
 
 def test_predict_method_two():
-    path = "http://127.0.0.1:8000/predict"
+    path = "https://udacityp3.herokuapp.com/predict"
     json={
         "age": 52,
         "workclass": "Self-emp-inc",
